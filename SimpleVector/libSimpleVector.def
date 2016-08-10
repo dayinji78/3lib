@@ -1,2 +1,2 @@
-; dlltool --base-file C:\Users\lifrank\AppData\Local\Temp/cca15272.base --output-exp SimpleVector.exp --dllname SimpleVector.dll --output-def libSimpleVector.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\lifrank\AppData\Local\Temp/cca15272.def --output-lib libSimpleVector.a
+; dlltool --base-file C:\Users\lifrank\AppData\Local\Temp/cca04676.base --output-exp SimpleVector.exp --dllname SimpleVector.dll --output-def libSimpleVector.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\lifrank\AppData\Local\Temp/cca04676.def --output-lib libSimpleVector.a
 EXPORTS

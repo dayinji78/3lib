@@ -1,7 +1,7 @@
 [Project]
 FileName=SimpleVector.dev
 Name=SimpleVector
-UnitCount=3
+UnitCount=2
 Type=3
 Ver=1
 ObjFiles=
@@ -39,16 +39,6 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
-FileName=dll.h
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit3]
 FileName=SimpleVector.h
 CompileCpp=1
@@ -76,4 +66,14 @@ OriginalFilename=
 ProductName=
 ProductVersion=
 AutoIncBuildNr=0
+
+[Unit2]
+FileName=SimpleVector.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
