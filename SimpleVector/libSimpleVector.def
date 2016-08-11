@@ -1,2 +1,8 @@
-; dlltool --base-file C:\Users\lifrank\AppData\Local\Temp/cca12296.base --output-exp SimpleVector.exp --dllname SimpleVector.dll --output-def libSimpleVector.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\lifrank\AppData\Local\Temp/cca12296.def --output-lib libSimpleVector.a
+; dlltool --base-file C:\Users\lifrank\AppData\Local\Temp/cca10596.base --output-exp SimpleVector.exp --dllname SimpleVector.dll --output-def libSimpleVector.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\lifrank\AppData\Local\Temp/cca10596.def --output-lib libSimpleVector.a
 EXPORTS
+;	getCount()
+	_Z8getCountv @ 1
+;	getOrder(OrderInfo&, int)
+	_Z8getOrderR9OrderInfoi @ 2
+;	CreateManager()
+	_Z13CreateManagerv @ 3

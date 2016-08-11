@@ -8,10 +8,18 @@
 
 #define _CAPACITY_RATE_ 1.1
 
+#if BUILDING_DLL
+# define DLLIMPORT __declspec (dllexport)
+#else /* Not BUILDING_DLL */
+# define DLLIMPORT __declspec (dllimport)
+#endif /* Not BUILDING_DLL */
+
+
+
 typedef int (*cmp_fn)(const void*, const void*);
 
 template<class T>
-class SimpleVector {
+class DLLIMPORT SimpleVector {
 private:
 	//value list
 	T * m_list;

@@ -1,7 +1,7 @@
 [Project]
 FileName=SimpleVector.dev
 Name=SimpleVector
-UnitCount=2
+UnitCount=3
 Type=3
 Ver=1
 ObjFiles=
@@ -40,7 +40,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=SimpleVector.h
+FileName=OrderInfo.h
 CompileCpp=1
 Folder=
 Compile=1
